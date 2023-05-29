@@ -48,10 +48,10 @@ let setUcers = async () => {
       tr.innerHTML = `
       <td>${index + 1}</td>
       <td>${item.id}</td>
-      <td class="text-danger fw-bold">${item.name}</td>
+      <td class="text-primary fw-bold">${item.name}</td>
       
       <td>${item.email}</td>
-      <td class="w-25 fw-bold text-success">${item.body}</td>
+      <td class="w-25 fw-bold text-primary">${item.body}</td>
       <td class=" gap-2 d-flex pb-5">
         <button class="btn btn-primary mt-5" onclick="putData(${item.id})">
           <i class="fas fa-edit"></i>
